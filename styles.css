@@ -1,0 +1,149 @@
+/* TAGS */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 1%;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4C2800;
+}
+
+header {
+    display: flex;
+    background-color: #8F5B35;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 0 0 5%
+}
+
+main {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    color: #FFFFFF;
+    gap: 10px;
+}
+
+header h1 {
+    color: #4E2A06;
+    text-shadow: 4px 4px 2px rgba(217,217,217,0.6);
+    font-size: 50px;
+}
+
+header img {
+    width: 90px;
+    height: 70px;
+}
+
+nav img {
+    width: 50px;
+    height: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+
+
+
+
+/* CLASSES */
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.barra_de_pesquisa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    height: 40%;
+}
+
+.abas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barranav {
+    margin: 0 0 0 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barranav img {
+    width: 90%;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #936F51;
+    width: 60%;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #725138;
+    width: 40%;
+}
+
+.perfumes {
+    height: 80%;
+    width: 90%;
+}
+
+.texto_bonito {
+    height: 80%;
+    width: 80%;
+}
+
+.sobre {
+    padding: 0 1%;
+    background-color: #8F5B35;
+    width: 35%;
+}
+
+.catago {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.catago h1 {
+    padding: 0 0 0 50px;
+}
+
+.imagens {
+    display: flex;
+}
+
+.imagens img {
+    width: 28%;
+}
+
+.marcado {
+    border-bottom: solid #4C2800 10px;
+}
